@@ -1,24 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+
 *{
+
+    font-family: 'Mulish', sans-serif;
     margin: 0;
     padding: 0;
 }
+.primarytext{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.primarysize{
+    max-width: 1300px;
+    margin: 20px auto;
+   
+   
+    
+}
+
+nav{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    align-items: center;
+}
+span{
+   color: #FF5400;
+   font-weight: 700;
+   
+}
 
 
-/*screen size*/
+.nav1{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    gap: 10px;
+}
+nav ul,a{
 
-@media screen  and (max-width:576px) {
+
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+   
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+   
+
+}
 
 
+.banner1{
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+    
+
+    
+
+}
+.searchfield{
+display: flex;
+background-color: rgba(228, 228, 231, 0.5);
+padding: 20px;
+width: 60%;
+margin: 0 auto;
+justify-content: space-evenly;
+border-radius: 10px;
+
+
+}
+.inputf{
+    
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    color: #202021;
+    padding-left: 5px;
+    width: 150px;
+    
+}
+
+
+.bannertext{
+    margin: 20px auto;
+    color:white;
+    width: 90%;
+    background-color: rgba(32, 32, 33, 0.3);
+}
+.secondpart{
+    margin-top: 50px;
+    border-radius: 16px;
+
+    display: flex;
+    padding: 20px;
+    height: fit-content;
+    background-color: #ded4b066;
+    justify-content: space-between;
+   
+}
+.secondpart button{
+    margin-top: 20px;
+}
+.secondtxt{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto 20px;
+    margin-top: 30px;
+    padding: 50px;
+
+}
+.secondtxt li{
+
+    padding-left: 30px;
+}
+.secondimg{
+    
+    width: 50%;
+
+}
+.secondimg img{
+    width: 100%;
+}
+
+.thirdtxt{
+    margin: 40px auto;
+   width: 80%;
+    text-align: center;
+}
+
+
+.subform input{
+    
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px ;
+
+}
+.sectionlast button{
+    margin-top: 20px;
+}
+
+
+.formimg{
+    width: 60%;
+    border-radius: 16px;
+
+}
+.sectionlast{
+    display: flex;
+    
+    border-radius: 16px;
+    height: fit-content;
+}
+.subform{
+    color: #424247;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    justify-content: center;
+
+}
+.forminput{
+    display: flex;
+    flex-direction: column;
+}
+
+.formimg button{
+
+    position: relative;
+    left: 70%;
+    bottom: 150px;
+    transform: rotate(-40deg);
+   
     
 }
 
 
 
 
-@media screen and (min-width: 576px) and (max-width: 960px) {
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.primarybtn{
+    background-color: #FF5400;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+
+
+}
+button:hover{
+    cursor: pointer;
+}
+
+footer{
     
+   align-items: center;
     
+   background: rgba(19, 19, 24, 0.05);
+
+}
+.foot1,.foot2,.foot3,.foot4{
+    width: 100%;
+
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.foot3{
+    gap: 10px;
+}
+hr{
+    width: 100%;
+   
+   
 }
