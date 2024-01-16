@@ -84,6 +84,15 @@
         width: 90%;
         
     }
+    .almostlast{
+        flex-direction: column;
+        height: fit-content;
+        justify-content:space-around;
+    }
+    .txtpart{
+        width: 100%;
+        
+    }
 
 
 
