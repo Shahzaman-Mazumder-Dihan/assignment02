@@ -17,9 +17,14 @@ line-height: 26px;
 .primarysize{
     max-width: 1300px;
     margin: 20px auto;
+    
    
    
     
+}
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 nav{
@@ -208,10 +213,74 @@ border-radius: 10px;
     
     
 }
+
+.imgf{ 
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #070707;
+    color:white;
+    align-items: center;
+    border-radius: 16px;
+    margin: .7%;
+    
+    
+
+   
+   
+}
 .row h3{
-    display: none;
+ 
+ 
+}
+.imgbackground{
+
+    filter:brightness(70%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+   
+
 }
 
+.img07{
+    background-image: url('../Images/Rectangle\ 5.png');
+   
+
+}
+.img06{
+    background-image: url('../Images/Rectangle\ 8.png');
+   
+
+}
+.img05{
+    background-image: url('../Images/Rectangle\ 10.png');
+   
+
+}
+.img04{
+    background-image: url('../Images/Rectangle\ 11.png');
+   
+
+}
+.img03{
+    background-image: url('../Images/Rectangle\ 9.png');
+   
+
+}
+.img02{
+    background-image: url('../Images/Rectangle\ 7.png');
+   
+
+}
+.img01{
+    background-image: url('../Images/Rectangle\ 6.png');
+   
+
+}
 
 .row{
 
