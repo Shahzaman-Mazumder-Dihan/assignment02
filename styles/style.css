@@ -220,6 +220,22 @@ border-radius: 10px;
     border-radius: 10%px;
     
     }
+    .cardcont{
+        
+        display: flex;
+        justify-content: space-around;
+        
+      
+    }
+
+    .cardrow{
+        background-color: rgba(217, 193, 212, 0.218);
+        width: 500px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 15px;
+    }
+
 
 
 

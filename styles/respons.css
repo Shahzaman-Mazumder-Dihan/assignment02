@@ -70,6 +70,20 @@
         padding: 0px 10px;
        
     }
+    .cardcont{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+      
+    }
+    .cardrow{
+       
+       margin: 5%;
+        width: 90%;
+        
+    }
 
 
 
