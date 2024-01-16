@@ -22,10 +22,7 @@ line-height: 26px;
    
     
 }
-body{
-    display: flex;
-    flex-direction: column;
-}
+
 
 nav{
 
@@ -123,6 +120,7 @@ border-radius: 10px;
     height: fit-content;
     background-color: #ded4b066;
     justify-content: space-between;
+    align-items: center;
     
    
 }
@@ -133,9 +131,9 @@ border-radius: 10px;
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: auto 20px;
+    margin: auto 40px auto auto;
     margin-top: 30px;
-    padding: 50px;
+   
 
 }
 .secondtxt li{
@@ -348,7 +346,26 @@ border-radius: 10px;
 
     }
 
-
+.bonus{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(80, 80, 83, 0.177);
+    
+    text-align: center;
+    border-radius: 16px;
+}
+.bonusvideo{
+    margin: 2%;
+    width: 90%;
+    height: 500px;
+  
+}
+.bonus span{
+    font-size: 1.3em;
+    color: #FF5400;
+}
 
 
 
