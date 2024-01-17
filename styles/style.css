@@ -385,8 +385,7 @@ border-radius: 10px;
 
 
 .primarybt{
-
-background-color: #FF5400;
+    background-color: #FF5400;
     color: white;
     font-size: 1.1em;
     font-weight: 700;
@@ -394,6 +393,7 @@ background-color: #FF5400;
     border: none;
     border-radius: 8px;
 
+    
 }
 
 
@@ -402,7 +402,13 @@ background-color: #FF5400;
 
 
 .primarybtn{
-    
+    background-color: #FF5400;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
 margin-top: 20px;
 
 }
